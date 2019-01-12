@@ -17,4 +17,12 @@ The dataset was named as "Phish_Data". After importing the necessary packages, t
 Histograms : The plot distribution of classes using histogram showed that 0 and 1 are predominant and -1 is in negligible amount. On comparison of classes 0 and 1, 0 is the major. 
 Missing Values : There are no missing values in the dataset.
 
-Correlation Matrix : There is no significant correlation between the variables. 
+Correlation Matrix : The heatmap showed there is no significant correlation between the variables. 
+
+Correlation with Target Variables : Generated the correlation of all features with target variables and features having correlation coefficents between  +/- 0.03 were removed in order to get higher accuracy. Around seven variables were removed. 
+
+Prepare data for models : out of 31 variables, seven were removed and with 24 variables now the data is ready for model building.
+
+Spliting the data train and test : 70% data was used as training data and the remaining 30% was used as trest data.
+
+Classifiers : First attempted to build model using Random Forest Classifier.
