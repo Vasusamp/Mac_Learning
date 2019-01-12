@@ -25,4 +25,66 @@ Prepare data for models : out of 31 variables, seven were removed and with 24 va
 
 Spliting the data train and test : 70% data was used as training data and the remaining 30% was used as test data.
 
-Classifiers : At First, attempted to build model using Random Forest Classifier. The
+Model Building :
+In order to understand how different classifiers perform in terms of the accuracy, various machine leaarning algorithms were attempted. 
+
+1. Random Forest
+
+At First, attempted to build model using Random Forest Classifier. The confusion matrix obtained was given as shown below.
+
+Random Forest	Actual / Yes	Actual / No
+Predicted  / Yes	      403	         11
+Predicted / No	        13	         310
+
+The accuracy using Random Forest classifier is 97%
+2. Linear regression
+Then Linear regression was attempted. The confusion matrix is as shown below.
+
+Linear Regression	Actual / Yes	Actual / No
+Predicted  / Yes	          383	         22
+Predicted / No	            23	         309
+
+The accuracy using Linear regression classifier is 94%
+
+3. SVM
+The support vector machine's confusion materix is given as shown below.
+
+SVM	Actual / Yes	Actual / No
+Predicted  / Yes	  393	   21
+Predicted / No	    16	   307
+
+The accuracy using SVM is 95%
+
+4. Decison Trees
+   The decision trees confusion materix is given as shown below.
+Decision Trees	Actual / Yes	Actual / No
+Predicted  / Yes	       221	         177
+Predicted / No	         185	         154
+The accuracy using decision trees is 51%
+
+5. KNN
+The KNN confusion materix is given as shown below.
+KNN             Actual / Yes	Actual / No
+Predicted  / Yes	       221	        177
+Predicted / No	         185	        154
+
+The accuracy using KNN is 51%
+
+6. Stochastic Gradient Descent (SGD)
+   The confusion matrix of SGD is given as shown below.
+SGD             Actual / Yes	Actual / No
+Predicted  / Yes	       221	        177
+Predicted / No	         185	        154
+
+The accuracy using SGD is 51%
+
+7. Naive Bayes
+
+The confusion matrix of SGD is given as shown below.
+Naive Bayes     Actual / Yes	Actual / No
+Predicted  / Yes	       221	        177
+Predicted / No	         185	        154
+
+The accuracy using Naive Bayes is 51%
+
+ 
