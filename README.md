@@ -8,7 +8,7 @@ Data Sources : Everlytics
 
 Tools : Python 
 
-Techniques: Random Forest, Logistic Regression, SVM, Decision tree, Naïve bayes, KNN and SGD
+Techniques: Exploratory data analysis, data cleaning, Random Forest, Logistic Regression, SVM, Decision tree, Naïve bayes, KNN and SGD
 
 Data Importing : The dataset contains 2456 rows and 31 columns. The column name of the target variable is mentioned as "Result".
 
@@ -23,6 +23,6 @@ Correlation with Target Variables : Generated the correlation of all features wi
 
 Prepare data for models : out of 31 variables, seven were removed and with 24 variables now the data is ready for model building.
 
-Spliting the data train and test : 70% data was used as training data and the remaining 30% was used as trest data.
+Spliting the data train and test : 70% data was used as training data and the remaining 30% was used as test data.
 
-Classifiers : First attempted to build model using Random Forest Classifier.
+Classifiers : At First, attempted to build model using Random Forest Classifier. The
