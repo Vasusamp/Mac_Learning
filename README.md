@@ -13,3 +13,8 @@ Techniques: Random Forest, Logistic Regression, SVM, Decision tree, Naïve bayes
 Data Importing : The dataset contains 2456 rows and 31 columns. The column name of the target variable is mentioned as "Result".
 
 The dataset was named as "Phish_Data". After importing the necessary packages, the excel dataset was successfully imported into Jupyter Notebook. Performed the fundamental exploratory data analysis operations such as head(), tail() and describe(). The info() function revelaed that the dataset contains integers. The dataset contains only three classes such as -1, 0, 1. The descibe() function revealed that 75% of observations belong to class 0. 
+
+Histograms : The plot distribution of classes using histogram showed that 0 and 1 are predominant and -1 is in negligible amount. On comparison of classes 0 and 1, 0 is the major. 
+Missing Values : There are no missing values in the dataset.
+
+Correlation Matrix : There is no significant correlation between the variables. 
