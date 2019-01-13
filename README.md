@@ -88,4 +88,6 @@ Predicted / No	         185	        154
 
 The accuracy using Naive Bayes is 51%
 
- 
+Conclusion
+The aim of this project is to predict whether the given URL is a phising website or not. This project involved the dataset from Evelytics and applied Python programming to evaluate various machine learing algorithms. The goal is to find the best classifier as far as the accuracy is concerned. Random forest classifier turns out to be the best classifier based on the accuracy of 97%. Logistic regression and SVM produced the accuracy 94% and 95% respectively. But when other classification algorithms were applied such as Naive Bayes, Decision trees, KNN and SGD, the accuracy was 51% only
+
