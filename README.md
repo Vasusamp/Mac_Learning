@@ -27,7 +27,7 @@ Data Mining: To perform data mining over the dataset, the dataset is split into 
 
 
 Model Building :
-In order to understand how different classifiers perform in terms of the accuracy, various machine leaarning algorithms were attempted. 
+In order to understand how different classifiers perform in terms of the accuracy, following classifiers were attempted. 
 
 1. Random Forest
 
@@ -54,40 +54,8 @@ SVM	Actual / Yes	Actual / No
 Predicted  / Yes	  393	   21
 Predicted / No	    16	   307
 
-The accuracy using SVM is 95%
-
-4. Decison Trees
-   The decision trees confusion materix is given as shown below.
-Decision Trees	Actual / Yes	Actual / No
-Predicted  / Yes	       221	         177
-Predicted / No	         185	         154
-The accuracy using decision trees is 51%
-
-5. KNN
-The KNN confusion materix is given as shown below.
-KNN             Actual / Yes	Actual / No
-Predicted  / Yes	       221	        177
-Predicted / No	         185	        154
-
-The accuracy using KNN is 51%
-
-6. Stochastic Gradient Descent (SGD)
-   The confusion matrix of SGD is given as shown below.
-SGD             Actual / Yes	Actual / No
-Predicted  / Yes	       221	        177
-Predicted / No	         185	        154
-
-The accuracy using SGD is 51%
-
-7. Naive Bayes
-
-The confusion matrix of SGD is given as shown below.
-Naive Bayes     Actual / Yes	Actual / No
-Predicted  / Yes	       221	        177
-Predicted / No	         185	        154
-
-The accuracy using Naive Bayes is 51%
+The accuracy using SVM is 93%
 
 Conclusion
-The aim of this project is to predict whether the given URL is a phising website or not. This project involved the dataset from Evelytics and applied Python programming to evaluate various machine learing algorithms. The goal is to find the best classifier as far as the accuracy is concerned. Random forest classifier turns out to be the best classifier based on the accuracy of 97%. Logistic regression and SVM produced the accuracy 94% and 95% respectively. But when other classification algorithms were applied such as Naive Bayes, Decision trees, KNN and SGD, the accuracy was 51% only
+The aim of this project is to predict whether the given URL is a phising website or not. This project involved the dataset from Evelytics and applied Python programming to evaluate various machine learing algorithms. The goal is to find the best classifier as far as the accuracy is concerned. Random forest classifier turns out to be the best classifier based on the accuracy of 97%. Logistic regression produced 94% accuracy and SVM produced 93%.
 
