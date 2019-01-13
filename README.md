@@ -49,14 +49,14 @@ Predicted / No	        15	         316
 The accuracy using Random Forest classifier is 97%
 
 
-2. Linear regression
-Then Linear regression was attempted. The confusion matrix is as shown below.
+2. Logistic Regression
+The confusion matrix of Logistic Regression is as shown below.
 
-Linear Regression	Actual / Yes	Actual / No
+Logistic Regression	Actual / Yes	Actual / No
 Predicted  / Yes	          380	         26
 Predicted / No	            19	         312
 
-The accuracy using Linear regression classifier is 94%
+The accuracy using Logistic regression classifier is 94%
 
 
 3. SVM
