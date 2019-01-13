@@ -10,7 +10,7 @@ Tools : Python
 
 Techniques: Exploratory data analysis, data cleaning, Random Forest, Logistic Regression, SVM, Decision tree, Naïve bayes, KNN and SGD
 
-Data Importing : The dataset contains 2456 rows and 31 columns. The column name of the target variable is mentioned as "Result".
+Data Selection : The dataset contains 31 columns wherein 30 are features on the basis of which they are classified as Phishing website and 1 as target and the column name of the target variable is mentioned as "Result". it has 2456 observations.
 
 The dataset was named as "Phish_Data". After importing the necessary packages, the excel dataset was successfully imported into Jupyter Notebook. Performed the fundamental exploratory data analysis operations such as head(), tail() and describe(). The info() function revelaed that the dataset contains integers. The dataset contains only three classes such as -1, 0, 1. The descibe() function revealed that 75% of observations belong to class 0. 
 
@@ -23,7 +23,8 @@ Correlation with Target Variables : Generated the correlation of all features wi
 
 Prepare data for models : out of 31 variables, seven were removed and with 24 variables now the data is ready for model building.
 
-Spliting the data train and test : 70% data was used as training data and the remaining 30% was used as test data.
+Data Mining: To perform data mining over the dataset, the dataset is split into training and testing dataset. The split ratio is 70-30 wherein 70% accounts to training set nd the remaining 30% was used as test data.
+
 
 Model Building :
 In order to understand how different classifiers perform in terms of the accuracy, various machine leaarning algorithms were attempted. 
