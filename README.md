@@ -34,16 +34,16 @@ In order to understand how different classifiers perform in terms of the accurac
 At First, attempted to build model using Random Forest Classifier. The confusion matrix obtained was given as shown below.
 
 Random Forest	Actual / Yes	Actual / No
-Predicted  / Yes	      403	         11
-Predicted / No	        13	         310
+Predicted  / Yes	      398	         8
+Predicted / No	        15	         316
 
 The accuracy using Random Forest classifier is 97%
 2. Linear regression
 Then Linear regression was attempted. The confusion matrix is as shown below.
 
 Linear Regression	Actual / Yes	Actual / No
-Predicted  / Yes	          383	         22
-Predicted / No	            23	         309
+Predicted  / Yes	          380	         26
+Predicted / No	            19	         312
 
 The accuracy using Linear regression classifier is 94%
 
@@ -51,8 +51,8 @@ The accuracy using Linear regression classifier is 94%
 The support vector machine's confusion materix is given as shown below.
 
 SVM	Actual / Yes	Actual / No
-Predicted  / Yes	  393	   21
-Predicted / No	    16	   307
+Predicted  / Yes	  382	   24
+Predicted / No	    29	   302
 
 The accuracy using SVM is 93%
 
