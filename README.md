@@ -38,6 +38,8 @@ Predicted  / Yes	      398	         8
 Predicted / No	        15	         316
 
 The accuracy using Random Forest classifier is 97%
+
+
 2. Linear regression
 Then Linear regression was attempted. The confusion matrix is as shown below.
 
@@ -47,7 +49,9 @@ Predicted / No	            19	         312
 
 The accuracy using Linear regression classifier is 94%
 
+
 3. SVM
+
 The support vector machine's confusion materix is given as shown below.
 
 SVM	Actual / Yes	Actual / No
@@ -56,21 +60,23 @@ Predicted / No	    29	   302
 
 The accuracy using SVM is 93%
 
+
 ## Sensitivity
                    Random Forest       = 0.96
                    Logistic Regression = 0.95
                    SVM                 = 0.93
- Sensitivity tells that Random Forest is slighly better at correctly identifying the positives.                
+ Sensitivity tells that Random Forest is slighly better at correctly identifying the positives.
+ 
 ## Specificity
  
-                    Random Forest      = 0.97
+                   Random Forest       = 0.97
                    Logistic Regression = 0.92
                    SVM                 = 0.93
  
 Specificity tells that Random Forest is slighly better at correctly identifying the negatives.
 
 ## Model Prediction
-Applied recusive feature elimination (RFE) for prediction. This method uses a model to select either the best or the worst performing feature and then excludes this feature. The whole process is then iterared until all features in the dataset are used up.
+Applied recursive feature elimination (RFE) for prediction. This method uses a model to select either the best or the worst performing feature and then excludes this feature. The whole process is then iterared until all features in the dataset are used up.
 
 1. Accuracy of Random Forest Classifier after RFE is applied = 96%
 
@@ -79,5 +85,9 @@ Applied recusive feature elimination (RFE) for prediction. This method uses a mo
 3. Accuracy of SVM-Linear after RFE is applied               = 93%
 
 ## Conclusion
+
 The aim of this project is to predict whether the given URL is a phising website or not. This project involved the dataset from Evelytics and applied Python programming to evaluate various machine learing algorithms. The goal is to find the best classifier as far as the accuracy is concerned. Random forest classifier turns out to be the best classifier based on the accuracy of 97%. Logistic regression produced 94% accuracy and SVM produced 93%.
+
+
+
 
