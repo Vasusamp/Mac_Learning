@@ -72,7 +72,9 @@ The accuracy using SVM is 93%
 ## ROC
 
    Random Forest       = 0.95
+   
    Logistic Regression = 0.94
+   
    SVM                 = 0.91
 
   The ROC values show that the above three classifiers are excellent in predicting the binary classification
@@ -101,7 +103,7 @@ Applied recursive feature elimination (RFE) for prediction. This method uses a m
 
 ## Conclusion
 
-The aim of this project is to predict whether the given URL is a phising website or not. This project involved the dataset from Evelytics and applied Python programming to evaluate various machine learing algorithms. The goal is to find the best classifier as far as the accuracy is concerned. Random forest classifier turns out to be the best classifier based on the accuracy of 97%. Logistic regression produced 94% accuracy and SVM produced 93%. Based on the accuracy, it can be concluded that the given URL Is phishing website. 
+The aim of this project is to predict whether the given URL is a phising website or not. This project involved the dataset from Evelytics and applied Python programming to evaluate various machine learing algorithms. The goal is to find the best classifier as far as the accuracy is concerned. Random forest classifier turns out to be the best classifier based on the accuracy of 97%. Logistic regression produced 94% accuracy and SVM produced 93%. Based on the accuracy of Random Forest classifier, it can be concluded that the given URL is phishing website. 
 
 
 
